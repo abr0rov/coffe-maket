@@ -1,0 +1,17 @@
+.collection-item{
+    margin-right: 30px;
+    width: 255px;
+    text-align: center;
+}
+.collection-item__title{
+    margin: 0;
+    margin-bottom: 24px;
+    margin-top: 71px;
+    @include font-family;
+    color: $blue;
+    line-height: 32px;
+    font-size: 24px;
+}
+@include style;
+.collection-item__description{
+}

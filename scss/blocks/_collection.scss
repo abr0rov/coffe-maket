@@ -1,0 +1,29 @@
+.collection{
+    margin-bottom: 200px;
+}
+.collection__title{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    font-size: 130px;
+    letter-spacing: 20px;
+}
+.collection__title::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);;
+}
+.collection__list{
+    position: absolute;
+    position: relative;
+    @include box;
+    z-index: 1;
+    margin-top: -70px;
+    justify-content: center;
+}
+.collection__list :last-child{
+    margin-right: 0;
+}

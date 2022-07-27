@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,QAAQ;CACX",
+    "sources": [
+        "../scss/blocks/header-list.scss"
+    ],
+    "names": [],
+    "file": "header-list.css"
+}
